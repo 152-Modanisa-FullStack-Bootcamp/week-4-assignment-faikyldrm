@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-video">
     <div v-for="video of videos" :key="video.id" class="main-video-container">
       <SmallVideo :video="video"></SmallVideo>
     </div>
@@ -35,5 +35,16 @@ export default {
 </script>
 
 <style scoped>
+.main-video {
 
+  display: flex;
+  flex-direction: row;
+  flex-grow: 4;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+.main-video-container{
+  margin: 5px;
+}
 </style>

@@ -50,4 +50,22 @@ export default {
 
 <style scoped>
 
+.small-video-container {
+  font-family: "Roboto Light", "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  width: 360px;
+
+}
+#videoImg {
+  height: 200px;
+  width: 360px;
+  padding-bottom: 5px;
+}
+.video-content {
+  display: flex;
+  flex-direction: row;
+}
 </style>
